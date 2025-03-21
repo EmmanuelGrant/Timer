@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="cup">
+        <div class="liquid" id="liquid"></div>
+    </div>
+    <div class="handle"></div>
+
+    <div class="timer-wrapper">
+        <div class="picker-container">
+            <div class="picker-column">
+                <div class="picker-scroll" id="hours">
+                    <!-- JS will generate numbers here -->
+                </div>
+                <span class="picker-label">HRS</span>
+            </div>
+            <div class="picker-column">
+                <div class="picker-scroll" id="minutes">
+                    <!-- JS will generate numbers here -->
+                </div>
+                <span class="picker-label">MIN</span>
+            </div>
+            <div class="picker-column">
+                <div class="picker-scroll" id="seconds">
+                    <!-- JS will generate numbers here -->
+                </div>
+                <span class="picker-label">SEC</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="button-container">
+        <button id="start-btn">Start</button>
+        <button id="pause-btn" class="hidden">Pause</button>
+        <button id="cancel-btn" class="hidden">Cancel</button>
+    </div>
+
+    <script src="script.js"></script>
+
+    <footer class="footer">
+        <h3>Made by Emmanuel👨🏾‍🚀</h3>
+    </footer>
+
+</body>
+
+</html>
