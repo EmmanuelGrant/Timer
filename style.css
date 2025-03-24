@@ -37,6 +37,46 @@ body {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
+/* Responsive styles for smaller screens */
+@media (max-width: 600px) {
+    .cup {
+        width: 200px;
+        /* Smaller width */
+        height: 266px;
+        /* Smaller height (maintains aspect ratio) */
+    }
+
+    .handle {
+        top: 120px;
+        /* Adjusted position */
+        right: 120px;
+        /* Adjusted position */
+        width: 66px;
+        /* Smaller width */
+        height: 166px;
+        /* Smaller height */
+        border-width: 30px;
+        /* Thinner border */
+    }
+
+    .picker-scroll {
+        width: 40px;
+        /* Smaller width for mobile */
+        height: 40px;
+        /* Smaller height for mobile */
+    }
+
+    .picker-scroll div {
+        font-size: 16px;
+        /* Smaller font size for mobile */
+    }
+
+    .button-container {
+        flex-direction: column;
+        /* Stack buttons vertically on mobile */
+    }
+}
+
 .liquid {
     position: absolute;
     bottom: 0;
