@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", function () {
             if (!isDragging) return;
             e.preventDefault();
             const y = e.pageY - picker.offsetTop;
-            const walk = (y - startY) * 2;
+            const walk = (y - startY) * 1;
             picker.scrollTop = scrollTop - walk;
         });
 
@@ -92,7 +92,7 @@ document.addEventListener("DOMContentLoaded", function () {
             if (!isDragging) return;
             e.preventDefault();
             const y = e.touches[0].pageY - picker.offsetTop;
-            const walk = (y - startY) * 2;
+            const walk = (y - startY) * 1;
             picker.scrollTop = scrollTop - walk;
         });
 
@@ -100,7 +100,7 @@ document.addEventListener("DOMContentLoaded", function () {
         picker.addEventListener("wheel", (e) => {
             e.preventDefault();
             picker.scrollBy({
-                top: e.deltaY < 0 ? -50 : 50,
+                top: e.deltaY < 0 ? -30 : 30,
                 behavior: "smooth",
             });
         });
