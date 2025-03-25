@@ -53,7 +53,7 @@ body {
 /* Responsive adjustments */
 @media (max-width: 600px) {
     .cup-wrapper {
-        padding-left: 245px;
+        padding-left: 200px;
     }
 
     .cup {
