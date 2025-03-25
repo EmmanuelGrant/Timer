@@ -150,7 +150,9 @@ document.addEventListener("DOMContentLoaded", function () {
             if (!isPaused) {
                 remainingTime--;
 
-                const liquidHeight = (remainingTime / totalTime) * initialHeight;
+                const cupHeight = document.querySelector('.cup').offsetHeight;
+
+                const liquidHeight = (remainingTime / totalTime) * cupHeight;
                 liquid.style.height = `${liquidHeight}px`;
 
                 if (remainingTime <= 5) {
