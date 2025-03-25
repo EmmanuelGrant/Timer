@@ -62,7 +62,7 @@ body {
 /* Responsive adjustments */
 @media (max-width: 600px) {
     .cup-wrapper {
-        padding-left: 25vw;
+        padding-left: 45vw;
         overflow: visible;
     }
 
