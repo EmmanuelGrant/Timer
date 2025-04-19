@@ -232,4 +232,7 @@ body {
 
 .footer a {
     color: #d1d0b1;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18.72px;
 }
